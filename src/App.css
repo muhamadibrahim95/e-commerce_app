@@ -16,3 +16,43 @@ body{
   font-family: 'Montserrat', sans-serif;
   background: var(--mainGrey) !important;
 }
+.text-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.text-main{
+  color: var(--primaryColor);
+}
+.main-link{
+   padding:0.5rem 1rem;
+   background: var(--primaryColor);
+   color:var(--mainWhite);
+   text-transform: uppercase;
+   letter-spacing: var(--mainSpacing);
+   outline:2px solid var(--primaryColor);
+   outline-offset: 2px;
+   font-size: 12px;
+   display: inline-block;
+}
+.main-link:hover{
+  color:var(--mainWhite);
+  text-decoration: none;
+}
+.img-about{
+  margin: 3rem 0rem;
+}
+.info p{
+  color: #495057;
+  font-size: 15px;
+  padding-top:15px;
+}
+.title-underline{
+  height: 0.25rem;
+  width: 7rem;
+  background: var(--primaryColor);
+}
+.mtb-3{
+  margin: 3rem 0rem;
+}
